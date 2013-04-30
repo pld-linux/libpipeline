@@ -1,12 +1,12 @@
 Summary:	A pipeline manipulation library
 Name:		libpipeline
-Version:	1.2.0
+Version:	1.2.3
 Release:	1
 License:	GPL v3+
 Group:		Development/Libraries
 URL:		http://libpipeline.nongnu.org/
 Source0:	http://download.savannah.gnu.org/releases/libpipeline/%{name}-%{version}.tar.gz
-# Source0-md5:	dd3a987a0d2b594716baee2f73d61ae3
+# Source0-md5:	f4866aa3a84f2852c78f87ff619dfc60
 BuildRequires:	libtool
 # Fedoraish Dep: http://fedoraproject.org/wiki/Packaging:No_Bundled_Libraries
 Provides:	bundled(gnulib)
@@ -33,7 +33,7 @@ develop programs that use libpipeline library.
 
 %build
 %configure
-%{__make}
+%{__make} V=1
 
 %install
 rm -rf $RPM_BUILD_ROOT
