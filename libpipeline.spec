@@ -5,17 +5,15 @@
 Summary:	A pipeline manipulation library
 Summary(pl.UTF-8):	Biblioteka operacji na linii potoków
 Name:		libpipeline
-Version:	1.2.4
+Version:	1.2.5
 Release:	1
 License:	GPL v3+
 Group:		Development/Libraries
 Source0:	http://download.savannah.gnu.org/releases/libpipeline/%{name}-%{version}.tar.gz
-# Source0-md5:	a98b07f6f487fa268d1ebd99806b85ff
+# Source0-md5:	8d159fbd72368526559799f38dd9b4c6
 URL:		http://libpipeline.nongnu.org/
 BuildRequires:	libtool >= 2:2
 BuildRequires:	pkgconfig
-# Fedoraish Dep: http://fedoraproject.org/wiki/Packaging:No_Bundled_Libraries
-Provides:	bundled(gnulib)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
