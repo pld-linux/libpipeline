@@ -5,12 +5,12 @@
 Summary:	A pipeline manipulation library
 Summary(pl.UTF-8):	Biblioteka operacji na linii potoków
 Name:		libpipeline
-Version:	1.5.5
+Version:	1.5.7
 Release:	1
 License:	GPL v3+
 Group:		Libraries
 Source0:	http://download.savannah.gnu.org/releases/libpipeline/%{name}-%{version}.tar.gz
-# Source0-md5:	3e725c76bfea1985e87e851ee50c2e29
+# Source0-md5:	1a48b5771b9f6c790fb4efdb1ac71342
 URL:		http://libpipeline.nongnu.org/
 BuildRequires:	check-devel >= 0.9.4
 BuildRequires:	libtool >= 2:2
